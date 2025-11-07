@@ -98,20 +98,20 @@ export default function PortfolioClient({ projects, videos }: Props) {
         <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
           <h1 className="text-2xl md:text-3xl font-bold text-gray-800">Ajua</h1>
           <div className="flex gap-3 md:gap-4">
-            <a href="https://youtube.com/@ajua_aja" target="_blank" rel="noopener noreferrer" 
-               className="text-red-600 hover:text-red-700 transition">
-              <Youtube className="w-5 h-5 md:w-6 md:h-6" />
-            </a>
             <a href="https://instagram.com/azzuhaili" target="_blank" rel="noopener noreferrer"
-               className="text-pink-600 hover:text-pink-700 transition">
+               className="text-gray-800 hover:text-pink-500 transition">
               <Instagram className="w-5 h-5 md:w-6 md:h-6" />
             </a>
+            <a href="https://youtube.com/@ajua_aja" target="_blank" rel="noopener noreferrer" 
+               className="text-gray-800 hover:text-red-500 transition">
+              <Youtube className="w-5 h-5 md:w-6 md:h-6" />
+            </a>
             <a href="https://github.com/juaaju" target="_blank" rel="noopener noreferrer"
-               className="text-gray-800 hover:text-gray-900 transition">
+               className="text-gray-800 hover:text-blue-700 transition">
               <Github className="w-5 h-5 md:w-6 md:h-6" />
             </a>
             <a href="https://tiktok.com/@azzuhaili_" target="_blank" rel="noopener noreferrer"
-               className="text-gray-800 hover:text-gray-900 transition">
+               className="text-gray-800 hover:text-gray-400 transition">
               <Music className="w-5 h-5 md:w-6 md:h-6" />
             </a>
           </div>
@@ -453,13 +453,13 @@ export default function PortfolioClient({ projects, videos }: Props) {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-sm">© 2025 - Ajua.</p>
             <div className="flex gap-6">
-              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" 
-                 className="text-gray-400 hover:text-white transition">
-                <Youtube className="w-5 h-5" />
-              </a>
               <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"
                  className="text-gray-400 hover:text-white transition">
                 <Instagram className="w-5 h-5" />
+              </a>
+              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" 
+                 className="text-gray-400 hover:text-white transition">
+                <Youtube className="w-5 h-5" />
               </a>
               <a href="https://github.com" target="_blank" rel="noopener noreferrer"
                  className="text-gray-400 hover:text-white transition">
