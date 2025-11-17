@@ -27,7 +27,6 @@ const experiences = [
     period: "Jan 2024 - Jul 2024",
     current: false,
     responsibilities: [
-      "Conducted research on computer vision applications for industrial safety",
       "Developed GPS localization for autnomous tractors",
       "Mentored junior students in machine learning training (EPTA)"
     ],
