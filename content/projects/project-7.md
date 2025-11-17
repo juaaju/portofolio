@@ -39,6 +39,3 @@ A comprehensive risk assessment platform designed to streamline safety documenta
 
 ## Architecture
 The application uses a microservices architecture with separate services for web interface, API handling, and AI inference, ensuring scalability and maintainability.
-
-## Competition Achievement
-Submitted as part of Internal Pertamina Competition for HSSE innovation initiatives.

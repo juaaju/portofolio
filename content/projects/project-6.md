@@ -34,6 +34,3 @@ Developed an intelligent safety system that monitors employee behavior and workp
 - **UI Framework**: Flet (Python)
 - **CCTV**: Hikvision RTSP
 - **Data Logging**: Excel automation
-
-## Impact
-Improved workplace safety monitoring efficiency and reduced response time to safety violations at Pertamina EP Poleng Field.
