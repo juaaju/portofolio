@@ -29,11 +29,12 @@ The system can accurately measure:
 - Leg circumference
 - Chest circumference
 - Abdominal circumference
+- Baby Length
 
-## Hardware Integration
-- **Jetson Nano**: Edge AI computing platform for real-time processing
-- **USB Webcam**: High-resolution image capture
-- **Linux OS**: Optimized for embedded AI applications
+### My Contribution
+- Pixel to cm metrix circumference
+- GUI adjustment with flet
+- Excel database
 
 ## Software Stack
 - **Programming**: Python

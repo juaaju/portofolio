@@ -15,7 +15,7 @@ featured: true
 An innovative wearable device that translates sign language gestures into text/speech using machine learning and IoT technology.
 
 ## Overview
-A personal project developed for competition, combining hardware engineering with machine learning to create an accessible communication tool for the deaf and hard-of-hearing community.
+A personal project developed for competition, combining hardware engineering with machine learning to create an accessible communication tool for the deaf and hard-of-hearing community. The final product just a functional prototype but not easy to wear.
 
 ## How It Works
 The glove uses flex sensors to detect finger positions and hand gestures, which are then processed by a trained SVM (Support Vector Machine) model to recognize and translate sign language into readable text or speech output.
@@ -25,7 +25,6 @@ The glove uses flex sensors to detect finger positions and hand gestures, which 
 ### Hardware Design
 - **Flex Sensors**: Measure finger bend angles for gesture recognition
 - **ESP32 Microcontroller**: Processes sensor data and handles IoT communication
-- **Wearable Integration**: Comfortable glove design for natural hand movement
 
 ### Machine Learning
 - **Algorithm**: Support Vector Machine (SVM) from scikit-learn
@@ -46,10 +45,3 @@ The glove uses flex sensors to detect finger positions and hand gestures, which 
 
 ## Achievement
 🥇 Won **1st Place** in competition, recognized for innovation in assistive technology and practical implementation of ML on edge devices.
-
-## Future Development
-Potential expansions include:
-- Larger gesture vocabulary
-- Real-time speech output
-- Mobile app integration
-- Multi-language support

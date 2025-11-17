@@ -18,9 +18,8 @@ An intelligent gas detection system designed to provide early warning for LPG ga
 Developed to fulfill the requirements of the interdisciplinary engineering projects course at ITS, focusing on practical safety solutions for everyday environments.
 
 ## My Contributions
-- Developed IoT-based alarm system architecture
+- Developed IoT-based alarm system with telegram notification
 - Calibrated MQ Gas Sensor according to datasheet specifications and manufacturer manuals
-- Implemented real-time monitoring and alert mechanisms
 - Tested and deployed system in real-world environment
 
 ## Deployment
@@ -31,14 +30,9 @@ Successfully deployed and operational at one of the food stands in the Cafeteria
 - **Sensor**: MQ Gas Sensor (calibrated for LPG detection)
 - **Programming**: C++
 - **IDE**: Arduino Integrated Development Environment
-- **Protocol**: IoT connectivity for remote monitoring
 
 ## Features
-- Real-time LPG gas concentration monitoring
+- Real-time LPG gas concentration monitoring %LEL
 - Audible and visual alarm system
 - IoT connectivity for remote alerts
 - Calibrated sensor for accurate readings
-- Low-power consumption design
-
-## Impact
-Enhances safety for students and staff by providing early detection of potential gas leaks in the cafeteria environment.

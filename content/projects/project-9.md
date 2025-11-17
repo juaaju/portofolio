@@ -6,13 +6,11 @@ image: "/images/urinoir.jpg"
 ---
 
 **Lokasi:** Surabaya  
-**Peran:** PLC & HMI Developer, Web Monitoring Developer
+**Peran:** Web Monitoring Developer
 
-Sistem deteksi narkotika pada urinoir berbasis **PLC Mitsubishi FX3U-14MT** dan **HMI Weintek**. 
-Saya mengembangkan diagram ladder pada PLC dan tampilan HMI menggunakan EasyBuilder.
+Sistem deteksi narkotika pada urinoir berbasis **PLC Mitsubishi FX3U-14MT** dan **HMI Weintek**.
 
 ### Kontribusi
-- Mengembangkan diagram **PLC Ladder** dan antarmuka **HMI**.
 - Memperbaiki bug *Modbus communication collision* antara PLC dan turbidity sensor agar data dapat dibaca HMI dengan benar.
 - Membuat **web dashboard** untuk monitoring menggunakan **Next.js**, lengkap dengan penyimpanan berbasis Excel.
 - Mengimplementasikan **data pass-through** antara HMI dan PLC.
