@@ -1,5 +1,5 @@
 ---
-title: "Sign Language Translator Glove"
+title: "Sarung Tangan Penerjemah Bahasa Isyarat"
 image: "/images/projects/signgloves.png"
 tags: ["Machine Learning", "IoT", "SVM", "Hardware"]
 duration: "Des 2023 – Jan 2024"

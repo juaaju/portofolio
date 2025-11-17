@@ -1,5 +1,5 @@
 ---
-title: "Narcotic Detection Urinoir"
+title: "Urinoir Untuk Deteksi Narkoba"
 date: "2025-10"
 tags: ["PLC", "HMI", "Modbus", "Next.js", "Industrial IoT"]
 image: "/images/urinoir.jpg"

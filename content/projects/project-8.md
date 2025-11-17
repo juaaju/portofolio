@@ -1,5 +1,5 @@
 ---
-title: "Tractor Positioning System with GPS and EKF"
+title: "Sistem Estimasi Posisi Traktor Berbasis GPS dan EKF"
 date: "2024-12"
 tags: ["GPS", "Extended Kalman Filter", "Autonomous Vehicle", "Jetson", "Python"]
 image: "/images/projects/TA.png"

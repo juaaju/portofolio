@@ -1,29 +1,19 @@
 {
   "videos": [
     {
-      "id": "dQw4w9WgXcQ",
-      "title": "#1 Introduction to Embedded Systems",
-      "description": "Learn the basics of embedded systems and microcontrollers"
+      "id": "4m8Rmp19U9Q",
+      "title": "#1 Bagaimana Kode Berinteraksi dengan Hardware",
+      "description": "Kode sebenarnya hanya mengubah memori pada hardware"
     },
     {
-      "id": "jNQXAC9IVRw",
-      "title": "#2 Arduino vs ESP32 Comparison",
-      "description": "Detailed comparison between Arduino and ESP32 platforms"
+      "id": "-tNrTdVz9Og",
+      "title": "#2 IC Kecil Pada Arduino",
+      "description": "IC kecil tersebut adalah ATmega328p"
     },
     {
-      "id": "9bZkp7q19f0",
-      "title": "#3 Building a Smart Robot",
-      "description": "Step-by-step tutorial on building an autonomous robot"
-    },
-    {
-      "id": "kJQP7kiw5Fk",
-      "title": "#4 PCB Design Basics",
-      "description": "Learn PCB design with KiCad from scratch"
-    },
-    {
-      "id": "Qkuu0Lwb5EM",
-      "title": "#5 IoT Project Tutorial",
-      "description": "Create your first IoT project with WiFi connectivity"
+      "id": "vAM9T3BaCE0",
+      "title": "#3 Video Random",
+      "description": "Bingung Endingnya kek gimana..."
     }
   ]
 }
