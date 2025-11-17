@@ -8,16 +8,14 @@ import { Briefcase, MapPin, Calendar, Youtube, Instagram, Github, Music, Chevron
 const experiences = [
   {
     id: 1,
-    title: "IoT Engineer",
+    title: "Engineer",
     company: "PT. Elefante Infradiji Solusi",
     location: "Jakarta",
     period: "Nov 2025 - Present",
     current: true,
     responsibilities: [
-      "Developed IoT infrastructure for smart building management systems",
-      "Implemented real-time monitoring using MQTT protocol and AWS IoT Core",
-      "Collaborated with cross-functional teams to deliver scalable solutions",
-      "Reduced system downtime by 40% through predictive maintenance algorithms"
+      "I LOPE U Project",
+      "Urinoir Project"
     ],
     skills: ["ESP32", "Python", "MQTT", "AWS IoT", "Node-RED"]
   },
