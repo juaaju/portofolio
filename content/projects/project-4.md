@@ -1,38 +1,38 @@
 ---
-title: "GASSAFE - LPG Gas Detector"
+title: "GASSAFE - Detektor Gas LPG"
 image: "/images/projects/gassafe.png"
 tags: ["IoT", "ESP32", "Safety System"]
-duration: "Aug 2024 – Dec 2024"
+duration: "Agu 2024 – Des 2024"
 location: "Institut Teknologi Sepuluh Nopember (ITS)"
 link: "https://its.id/m/pri-gassafe"
 ---
 
-# GASSAFE (LPG Gas Detector)
+# GASSAFE (Detektor Gas LPG)
 
-IoT-based LPG gas detection and alarm system developed as part of interdisciplinary engineering projects course, successfully deployed in ITS cafeteria.
+Sistem deteksi dan alarm gas LPG berbasis IoT yang dikembangkan sebagai bagian dari mata kuliah proyek rekayasa interdisipliner, dan berhasil diterapkan di kafetaria ITS.
 
-## Overview
-An intelligent gas detection system designed to provide early warning for LPG gas leaks, enhancing safety in public dining areas. The project combines sensor calibration, IoT connectivity, and real-time alerting.
+## Ringkasan
+Sistem deteksi gas cerdas yang dirancang untuk memberikan peringatan dini terhadap kebocoran gas LPG, sehingga meningkatkan keselamatan pada area makan publik. Proyek ini menggabungkan kalibrasi sensor, konektivitas IoT, dan sistem peringatan real-time.
 
-## Project Context
-Developed to fulfill the requirements of the interdisciplinary engineering projects course at ITS, focusing on practical safety solutions for everyday environments.
+## Konteks Proyek
+Dikembangkan untuk memenuhi kebutuhan mata kuliah proyek rekayasa interdisipliner di ITS, dengan fokus pada solusi keselamatan praktis untuk lingkungan sehari-hari.
 
-## My Contributions
-- Developed IoT-based alarm system with telegram notification
-- Calibrated MQ Gas Sensor according to datasheet specifications and manufacturer manuals
-- Tested and deployed system in real-world environment
+## Kontribusi Saya
+- Mengembangkan sistem alarm berbasis IoT dengan notifikasi Telegram  
+- Melakukan kalibrasi Sensor Gas MQ sesuai spesifikasi datasheet dan panduan pabrikan  
+- Melakukan pengujian dan menerapkan sistem di lingkungan nyata  
 
-## Deployment
-Successfully deployed and operational at one of the food stands in the Cafeteria of Institut Teknologi Sepuluh Nopember (ITS), serving as a live safety system.
+## Penerapan
+Berhasil dipasang dan beroperasi di salah satu stand makanan di Kafetaria Institut Teknologi Sepuluh Nopember (ITS), berfungsi sebagai sistem keselamatan aktif.
 
-## Tech Stack
-- **Microcontroller**: ESP32
-- **Sensor**: MQ Gas Sensor (calibrated for LPG detection)
-- **Programming**: C++
-- **IDE**: Arduino Integrated Development Environment
+## Tumpukan Teknologi
+- **Mikrokontroler**: ESP32  
+- **Sensor**: Sensor Gas MQ (dikalibrasi untuk deteksi LPG)  
+- **Bahasa Pemrograman**: C++  
+- **IDE**: Arduino IDE  
 
-## Features
-- Real-time LPG gas concentration monitoring %LEL
-- Audible and visual alarm system
-- IoT connectivity for remote alerts
-- Calibrated sensor for accurate readings
+## Fitur
+- Pemantauan konsentrasi gas LPG real-time dalam %LEL  
+- Sistem alarm suara dan visual  
+- Konektivitas IoT untuk peringatan jarak jauh  
+- Sensor terkalibrasi untuk pembacaan yang akurat  

@@ -1,8 +1,8 @@
 ---
-title: "Digital Anthropometry for Babies"
+title: "Digital Anthropometry untuk Bayi"
 image: "/images/projects/antropo.png"
 tags: ["Computer Vision", "Jetson Nano", "Medical Tech"]
-duration: "Jan – Aug 2024"
+duration: "Jan – Agu 2024"
 location: "Institut Teknologi Sepuluh Nopember (ITS)"
 github: "https://github.com/juaaju/antropo-digital-app"
 youtube: "https://www.youtube.com/watch?v=jzpML7ADPH4"
@@ -10,41 +10,41 @@ youtube: "https://www.youtube.com/watch?v=jzpML7ADPH4"
 
 # Digital Anthropometry
 
-Non-contact baby measurement system using image processing and AI for accurate anthropometric measurements in healthcare settings.
+Sistem pengukuran tubuh bayi tanpa kontak menggunakan pemrosesan citra dan AI untuk menghasilkan pengukuran antropometri yang akurat di fasilitas kesehatan.
 
-## Overview
-Developed an innovative tool for measuring infant body dimensions using computer vision, eliminating the need for physical contact and reducing measurement errors in medical applications.
+## Ringkasan
+Mengembangkan alat inovatif untuk mengukur dimensi tubuh bayi menggunakan computer vision, menghilangkan kebutuhan akan kontak fisik, dan mengurangi potensi kesalahan pengukuran dalam aplikasi medis.
 
-## Technology Implementation
+## Implementasi Teknologi
 
-### Image Processing
-- **MediaPipe Pose**: Skeleton detection for body landmark identification
-- **Segment Anything Model (SAM)**: Meta's advanced segmentation for precise body part isolation
-- **Camera Calibration**: Ensures accurate distance and size measurements
+### Pemrosesan Citra
+- **MediaPipe Pose**: Deteksi rangka tubuh (skeleton) untuk identifikasi titik-titik tubuh  
+- **Segment Anything Model (SAM)**: Model segmentasi dari Meta untuk isolasi bagian tubuh secara presisi  
+- **Kalibrasi Kamera**: Menjamin akurasi dalam pengukuran jarak dan ukuran  
 
-### Measurement Capabilities
-The system can accurately measure:
-- Head circumference
-- Arm circumference
-- Leg circumference
-- Chest circumference
-- Abdominal circumference
-- Baby Length
+### Kemampuan Pengukuran
+Sistem dapat mengukur secara akurat:
+- Lingkar kepala  
+- Lingkar lengan  
+- Lingkar kaki  
+- Lingkar dada  
+- Lingkar perut  
+- Panjang tubuh bayi  
 
-### My Contribution
-- Pixel to cm metrix circumference
-- GUI adjustment with flet
-- Excel database
+### Kontribusi Saya
+- Konversi piksel ke cm untuk pengukuran lingkar  
+- Penyesuaian GUI menggunakan Flet  
+- Integrasi database Excel  
 
-## Software Stack
-- **Programming**: Python
-- **GUI Framework**: Flet for intuitive desktop interface
-- **AI Libraries**: MediaPipe, SAM (Segment Anything Model)
-- **OS**: Linux (Jetson Nano)
+## Tumpukan Perangkat Lunak
+- **Bahasa Pemrograman**: Python  
+- **Framework GUI**: Flet untuk antarmuka desktop yang intuitif  
+- **Library AI**: MediaPipe, SAM (Segment Anything Model)  
+- **Sistem Operasi**: Linux (Jetson Nano)  
 
-## Benefits
-- Non-contact measurement (hygienic and baby-friendly)
-- Fast and accurate results
-- Reduces human measurement errors
-- Easy to use for medical staff
-- Portable edge computing solution
+## Manfaat
+- Pengukuran tanpa kontak (lebih higienis dan ramah bayi)  
+- Cepat dan akurat  
+- Mengurangi kesalahan pengukuran manual  
+- Mudah digunakan oleh tenaga medis  
+- Solusi komputasi edge yang portabel  

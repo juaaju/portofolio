@@ -8,34 +8,34 @@ github: "https://github.com/juaaju/risk-regiter-app"
 featured: true
 ---
 
-# Web Based Risk Assessment
+# Penilaian Risiko Berbasis Web
 
-Web application developed for Pertamina Poleng HSSE Division as part of the Internal Pertamina Competition, featuring AI-powered safety documentation and guidance.
+Aplikasi web yang dikembangkan untuk Divisi HSSE Pertamina Poleng sebagai bagian dari Internal Pertamina Competition, dilengkapi dengan fitur dokumentasi keselamatan dan panduan berbasis AI.
 
-## Overview
-A comprehensive risk assessment platform designed to streamline safety documentation processes and provide intelligent safety guidance through AI-powered features.
+## Ringkasan
+Platform penilaian risiko yang komprehensif, dirancang untuk menyederhanakan proses dokumentasi keselamatan dan memberikan panduan keselamatan cerdas melalui fitur AI.
 
-## Key Features
+## Fitur Utama
 
-### 1. Auto-fill Risk Assessment Documents
-- Streamlines documentation workflow
-- Reduces manual data entry errors
-- Intelligent form completion based on context
-- Improves efficiency for HSSE teams
+### 1. Pengisian Otomatis Dokumen Risk Assessment
+- Menyederhanakan alur kerja dokumentasi  
+- Mengurangi kesalahan input data manual  
+- Pengisian formulir cerdas berdasarkan konteks  
+- Meningkatkan efisiensi tim HSSE  
 
-### 2. Safety Chatbot with RAG
-- Context-aware safety guidance using Retrieval Augmented Generation
-- Provides real-time answers to safety queries
-- Based on company safety documentation and regulations
-- Powered by Qwen2.5-7B-Instruct-1M model
+### 2. Chatbot Keselamatan dengan RAG
+- Panduan keselamatan kontekstual menggunakan Retrieval Augmented Generation  
+- Memberikan jawaban real-time untuk pertanyaan terkait keselamatan  
+- Berdasarkan dokumen keselamatan dan regulasi perusahaan  
+- Didukung oleh model Qwen2.5-7B-Instruct-1M  
 
-## Tech Stack
-- **Frontend**: React.js
-- **Backend**: Node.js, Express.js, FastAPI
-- **Database**: PostgreSQL
-- **LLM**: Qwen2.5-7B-Instruct-1M via LM Studio
-- **Fine-tuning**: PEFT (Parameter-Efficient Fine-Tuning)
-- **Operating System**: Linux
+## Tumpukan Teknologi
+- **Frontend**: React.js  
+- **Backend**: Node.js, Express.js, FastAPI  
+- **Database**: PostgreSQL  
+- **LLM**: Qwen2.5-7B-Instruct-1M melalui LM Studio  
+- **Fine-tuning**: PEFT (Parameter-Efficient Fine-Tuning)  
+- **Sistem Operasi**: Linux  
 
-## Architecture
-The application uses a microservices architecture with separate services for web interface, API handling, and AI inference, ensuring scalability and maintainability.
+## Arsitektur
+Aplikasi menggunakan arsitektur microservices dengan layanan terpisah untuk antarmuka web, pemrosesan API, dan inferensi AI, sehingga memberikan skalabilitas dan kemudahan pemeliharaan.

@@ -2,35 +2,35 @@
 title: "AI LOPE U - Workplace Safety System"
 image: "/images/projects/ai-lope-u.png"
 tags: ["AI", "Computer Vision", "IoT", "YOLOv8"]
-duration: "Aug 2024 – Aug 2025"
+duration: "Agu 2024 – Agu 2025"
 location: "Pertamina EP Poleng Field, Surabaya"
 github: "https://github.com/juaaju/ailopeu"
 ---
 
 AI LOPE U (Artificial Intelligence for Loss Prevention Unsafe Action/Condition)
 
-AI-powered workplace safety monitoring system using CCTV at Pertamina EP Poleng Field to detect unsafe actions and conditions in real-time.
+Sistem pemantauan keselamatan kerja berbasis AI menggunakan CCTV di Pertamina EP Poleng Field untuk mendeteksi tindakan dan kondisi tidak aman secara real-time.
 
-## Overview
-Developed an intelligent safety system that monitors employee behavior and workplace conditions using computer vision and IoT integration. The system provides real-time alerts when safety violations are detected.
+## Ringkasan
+Mengembangkan sistem keselamatan cerdas yang memantau perilaku karyawan dan kondisi area kerja menggunakan computer vision serta integrasi IoT. Sistem memberikan peringatan real-time ketika terjadi pelanggaran keselamatan.
 
-## Key Features
-- **Real-time Detection**: YOLOv8 + OpenCV for detecting handrail usage, PPE compliance, and hazardous zones
-- **IoT Integration**: ESP32 microcontroller for instant alerts via MQTT protocol
-- **Alert System**: Light and buzzer notifications for immediate response
-- **Desktop Interface**: Built with Flet for monitoring and control
-- **Automated Logging**: Violation records automatically saved to Excel
-- **CCTV Integration**: Connected to Hikvision cameras via RTSP protocol
+## Fitur Utama
+- **Deteksi Real-time**: YOLOv8 + OpenCV untuk mendeteksi penggunaan handrail, kepatuhan APD, dan zona berbahaya  
+- **Integrasi IoT**: Mikrokontroler ESP32 untuk notifikasi instan melalui protokol MQTT  
+- **Sistem Peringatan**: Lampu dan buzzer sebagai respons cepat terhadap pelanggaran  
+- **Antarmuka Desktop**: Dibangun menggunakan Flet untuk pemantauan dan kontrol  
+- **Pencatatan Otomatis**: Catatan pelanggaran secara otomatis disimpan ke Excel  
+- **Integrasi CCTV**: Terkoneksi dengan kamera Hikvision melalui protokol RTSP  
 
-## Monitoring Areas
-- Office stairways
-- Warehouse facilities
-- Open field operations
+## Area Pemantauan
+- Tangga kantor  
+- Fasilitas gudang  
+- Operasi lapangan terbuka  
 
-## Tech Stack
-- **Computer Vision**: YOLOv8, OpenCV
-- **IoT Hardware**: ESP32
-- **Communication**: MQTT Protocol
-- **UI Framework**: Flet (Python)
-- **CCTV**: Hikvision RTSP
-- **Data Logging**: Excel automation
+## Tumpukan Teknologi
+- **Computer Vision**: YOLOv8, OpenCV  
+- **Hardware IoT**: ESP32  
+- **Komunikasi**: Protokol MQTT  
+- **Framework UI**: Flet (Python)  
+- **CCTV**: Hikvision RTSP  
+- **Pencatatan Data**: Otomatisasi Excel  
