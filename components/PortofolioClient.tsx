@@ -82,14 +82,14 @@ export default function PortfolioClient({ projects, videos }: Props) {
   const nextVideos = () => setVideoIndex(i => Math.min(i + 1, maxVideoIndex));
   const prevVideos = () => setVideoIndex(i => Math.max(i - 1, 0));
 
-  const handleSubmit = () => {
-    if (!form.name || !form.email || !form.message) {
-      alert('Please fill all fields');
-      return;
-    }
-    alert(`Email sent! Name: ${form.name}, Email: ${form.email}`);
-    setForm({ name: '', email: '', message: '' });
-  };
+  // const handleSubmit = () => {
+  //   if (!form.name || !form.email || !form.message) {
+  //     alert('Please fill all fields');
+  //     return;
+  //   }
+  //   alert(`Email sent! Name: ${form.name}, Email: ${form.email}`);
+  //   setForm({ name: '', email: '', message: '' });
+  // };
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -401,7 +401,7 @@ export default function PortfolioClient({ projects, videos }: Props) {
         </div>
       </section>
 
-      {/* Contact Section */}
+      {/* Contact Section
       <section className="py-12 md:py-16">
         <div className="max-w-2xl mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8 text-center">Collab?</h2>
@@ -445,7 +445,7 @@ export default function PortfolioClient({ projects, videos }: Props) {
             </button>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Footer */}
       <footer className="bg-gray-800 text-white py-8">
