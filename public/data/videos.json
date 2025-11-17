@@ -2,17 +2,17 @@
   "videos": [
     {
       "id": "4m8Rmp19U9Q",
-      "title": "#1 Bagaimana Kode Berinteraksi dengan Hardware",
+      "title": "Cara Kode & Hardware Berinteraksi",
       "description": "Kode sebenarnya hanya mengubah memori pada hardware"
     },
     {
       "id": "-tNrTdVz9Og",
-      "title": "#2 IC Kecil Pada Arduino",
+      "title": "IC Kecil Pada Arduino",
       "description": "IC kecil tersebut adalah ATmega328p"
     },
     {
       "id": "vAM9T3BaCE0",
-      "title": "#3 Video Random",
+      "title": "Video Random",
       "description": "Bingung Endingnya kek gimana..."
     }
   ]
