@@ -21,6 +21,7 @@ Dikembangkan untuk memenuhi kebutuhan mata kuliah proyek rekayasa interdisipline
 - Mengembangkan sistem alarm berbasis IoT dengan notifikasi Telegram  
 - Melakukan kalibrasi Sensor Gas MQ sesuai spesifikasi datasheet dan panduan pabrikan  
 - Melakukan pengujian dan menerapkan sistem di lingkungan nyata  
+- Membantu Wiring Elektrikal
 
 ## Penerapan
 Berhasil dipasang dan beroperasi di salah satu stand makanan di Kafetaria Institut Teknologi Sepuluh Nopember (ITS), berfungsi sebagai sistem keselamatan aktif.

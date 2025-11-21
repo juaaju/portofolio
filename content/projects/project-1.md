@@ -16,7 +16,7 @@ Sistem penentuan posisi traktor dengan biaya rendah menggunakan **GPS u-blox NEO
 - EKF meningkatkan akurasi lebih lanjut menjadi **0.610 m**.
 
 ### Teknologi
-- **Hardware:** Jetson Xavier NX, GPS u-blox NEO-6M, RTK Quectel LC29H DA  
+- **Hardware:** Jetson Xavier NX, GPS u-blox NEO-6M, RTK Quectel LC29H DA, Desain PCB untuk Power Supply
 - **OS:** Linux  
 - **Bahasa:** Python
 

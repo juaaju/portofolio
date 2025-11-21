@@ -37,7 +37,7 @@ Sarung tangan menggunakan flex sensor untuk mendeteksi posisi jari dan gesture t
 - **Pemrosesan Cloud**: Opsional untuk inferensi sisi server  
 
 ## Tumpukan Teknologi
-- **Perangkat Keras**: ESP32, Flex Sensor  
+- **Perangkat Keras**: ESP32, Flex Sensor, PCB Design dengn KiCAD
 - **Library ML**: scikit-learn (SVM)  
 - **Framework API**: Flask  
 - **Pemrograman**: Python (ML & API), C++ (ESP32)  

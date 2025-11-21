@@ -8,19 +8,20 @@ import { Briefcase, MapPin, Calendar, Youtube, Instagram, Github, Music, Chevron
 const experiences = [
   {
     id: 1,
-    title: "Engineer",
-    company: "PT. Elefante Infradiji Solusi",
-    location: "Jakarta",
-    period: "Nov 2025 - Present",
-    current: true,
+    title: "RnD",
+    company: "PT. Elefante Infradiji Solusi ~ ITS",
+    location: "Remote Jakarta",
+    period: "2024-2025",
+    current: false,
     responsibilities: [
       "I LOPE U Project",
-      "Urinoir Project"
+      "Urinoir Project",
+      "D'RISA"
     ],
-    skills: ["ESP32", "Python", "MQTT", "AWS IoT", "Node-RED"]
+    skills: ["Arduino", "ESP32", "Python", "PLC", "C", "C++", "Javascript"]
   },
   {
-    id: 2,
+    id: 1,
     title: "Laboratorium Assistant",
     company: "ECS Laboratory (Engineering Physics, ITS)",
     location: "Surabaya",
