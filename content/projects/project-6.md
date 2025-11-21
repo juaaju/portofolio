@@ -14,6 +14,10 @@ Sistem pemantauan keselamatan kerja berbasis AI menggunakan CCTV di Pertamina EP
 ## Ringkasan
 Mengembangkan sistem keselamatan cerdas yang memantau perilaku karyawan dan kondisi area kerja menggunakan computer vision serta integrasi IoT. Sistem memberikan peringatan real-time ketika terjadi pelanggaran keselamatan.
 
+## Kontribusi Saya
+- Pengembangan aplikasi desktop berbasis flet
+- Pengembangan sistem MQTT beserta sistem elektrikal buzzer dan lampu
+
 ## Fitur Utama
 - **Deteksi Real-time**: YOLOv8 + OpenCV untuk mendeteksi penggunaan handrail, kepatuhan APD, dan zona berbahaya  
 - **Integrasi IoT**: Mikrokontroler ESP32 untuk notifikasi instan melalui protokol MQTT  
@@ -27,10 +31,13 @@ Mengembangkan sistem keselamatan cerdas yang memantau perilaku karyawan dan kond
 - Fasilitas gudang  
 - Operasi lapangan terbuka  
 
-## Tumpukan Teknologi
+## Teknologi
 - **Computer Vision**: YOLOv8, OpenCV  
 - **Hardware IoT**: ESP32  
 - **Komunikasi**: Protokol MQTT  
 - **Framework UI**: Flet (Python)  
 - **CCTV**: Hikvision RTSP  
 - **Pencatatan Data**: Otomatisasi Excel  
+
+### Dokumentasi
+https://github.com/juaaju/ailopeu

@@ -26,7 +26,7 @@ Dikembangkan untuk memenuhi kebutuhan mata kuliah proyek rekayasa interdisipline
 ## Penerapan
 Berhasil dipasang dan beroperasi di salah satu stand makanan di Kafetaria Institut Teknologi Sepuluh Nopember (ITS), berfungsi sebagai sistem keselamatan aktif.
 
-## Tumpukan Teknologi
+## Teknologi
 - **Mikrokontroler**: ESP32  
 - **Sensor**: Sensor Gas MQ (dikalibrasi untuk deteksi LPG)  
 - **Bahasa Pemrograman**: C++  
@@ -37,3 +37,6 @@ Berhasil dipasang dan beroperasi di salah satu stand makanan di Kafetaria Instit
 - Sistem alarm suara dan visual  
 - Konektivitas IoT untuk peringatan jarak jauh  
 - Sensor terkalibrasi untuk pembacaan yang akurat  
+
+### Dokumentasi
+https://its.id/m/pri-gassafe

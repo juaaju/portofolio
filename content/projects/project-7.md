@@ -12,6 +12,9 @@ featured: true
 
 Aplikasi web yang dikembangkan untuk Divisi HSSE Pertamina Poleng sebagai bagian dari Internal Pertamina Competition, dilengkapi dengan fitur dokumentasi keselamatan dan panduan berbasis AI.
 
+## Kontribusi Saya
+- Desain dan Develop end-to-end web dan AI nya
+
 ## Ringkasan
 Platform penilaian risiko yang komprehensif, dirancang untuk menyederhanakan proses dokumentasi keselamatan dan memberikan panduan keselamatan cerdas melalui fitur AI.
 
@@ -29,7 +32,7 @@ Platform penilaian risiko yang komprehensif, dirancang untuk menyederhanakan pro
 - Berdasarkan dokumen keselamatan dan regulasi perusahaan  
 - Didukung oleh model Qwen2.5-7B-Instruct-1M  
 
-## Tumpukan Teknologi
+## Teknologi
 - **Frontend**: React.js  
 - **Backend**: Node.js, Express.js, FastAPI  
 - **Database**: PostgreSQL  
@@ -39,3 +42,6 @@ Platform penilaian risiko yang komprehensif, dirancang untuk menyederhanakan pro
 
 ## Arsitektur
 Aplikasi menggunakan arsitektur microservices dengan layanan terpisah untuk antarmuka web, pemrosesan API, dan inferensi AI, sehingga memberikan skalabilitas dan kemudahan pemeliharaan.
+
+### Dokumentasi
+https://github.com/juaaju/risk-regiter-app

@@ -48,3 +48,6 @@ Sistem dapat mengukur secara akurat:
 - Mengurangi kesalahan pengukuran manual  
 - Mudah digunakan oleh tenaga medis  
 - Solusi komputasi edge yang portabel  
+
+### Dokumentasi
+https://github.com/juaaju/antropo-digital-app
