@@ -6,7 +6,7 @@ image: "/images/urinoir.jpg"
 ---
 
 **Lokasi:** Surabaya  
-**Peran:** Web Monitoring Developer
+**Peran:** PLC dan HMI programmer
 
 Sistem deteksi narkotika pada urinoir berbasis **PLC Mitsubishi FX3U-14MT** dan **HMI Weintek**.
 
