@@ -121,11 +121,11 @@ export default function PortfolioClient({ projects, videos }: Props) {
           <div className="flex-1">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Tentang Saya</h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Haloo... Saya suka berbagi tentang embedded system, control system, AI, dan berbagai topik teknologi menarik lainnya. Sebagai lulusan Teknik Fisika dengan pengalaman di bidang Embedded System dan AI, hobi saya adalah belajar dan mengembangkan project hardware dan software yang kemudian saya dokumentasikan melalui video dan tutorial.
+                Haloo... Saya suka belajar tentang embedded system, control system, AI, dan berbagai topik teknologi menarik lainnya. Sebagai lulusan Teknik Fisika dengan pengalaman di bidang Embedded System dan AI, hobi saya adalah utak-atik hardware dan software yang kemudian saya dokumentasikan melalui video dan tutorial.
 
               </p>
               <p className="text-gray-600 leading-relaxed">
-                Melalui konten-konten tersebut, saya ingin menunjukkan kepada banyak orang bahwa dunia teknologi ternyata sangat seru dan menarik untuk dijelajahi. Jadi, tetaplah ikuti konten menarik yang akan terus saya produksi!
+                Lewat konten-konten itu, saya pengen nunjukin kalau dunia teknologi sebenarnya seru banget buat dieksplorasi. Jadi, stay tuned ya, akan ada banyak konten menarik lainnya yang bakal terus saya bikin!
               </p>
           </div>
         </div>
