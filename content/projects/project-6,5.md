@@ -1,6 +1,12 @@
 ---
 title: "Digital Anthropometry untuk Bayi"
-image: "/images/projects/antropo.png"
+image: "/images/projects/antropo2.png"
+images: [
+    "/images/projects/antropo.png",
+    "/images/projects/antropo2.png",
+    "/images/projects/antropo1.png",
+    "/images/projects/antropo3.png",
+]
 tags: ["Computer Vision", "Jetson Nano", "Medical Tech"]
 duration: "Jan – Agu 2024"
 location: "Institut Teknologi Sepuluh Nopember (ITS)"

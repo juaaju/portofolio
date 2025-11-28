@@ -14,6 +14,7 @@ export interface Project {
   title: string;
   description: string;
   image: string;
+  images?: string[];  // ← Tambah ini
   tags: string[];
   content: string;
   contentHtml: string;
@@ -67,6 +68,7 @@ export function getProjects(): Project[] {
         title: data.title || 'Untitled',
         description,
         image: data.image || '/images/placeholder.jpg',
+        images: data.images || [],  // ← Tambah ini
         tags: data.tags || [],
         content,
         contentHtml

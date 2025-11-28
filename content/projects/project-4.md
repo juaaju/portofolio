@@ -1,6 +1,10 @@
 ---
 title: "GASSAFE - Detektor Gas LPG"
 image: "/images/projects/gassafe.png"
+images: [
+    "/images/projects/gassafe.png",
+    "/images/projects/gassafe1.png"
+]
 tags: ["IoT", "ESP32", "Safety System"]
 duration: "Agu 2024 – Des 2024"
 location: "Institut Teknologi Sepuluh Nopember (ITS)"
@@ -19,7 +23,7 @@ Dikembangkan untuk memenuhi kebutuhan mata kuliah proyek rekayasa interdisipline
 
 ## Kontribusi Saya
 - Mengembangkan sistem alarm berbasis IoT dengan notifikasi Telegram  
-- Melakukan kalibrasi Sensor Gas MQ sesuai spesifikasi datasheet dan panduan pabrikan  
+- Melakukan kalibrasi Sensor Gas MQ menggunakan perbandingan produk lain yang serupa dengan metode statistik
 - Melakukan pengujian dan menerapkan sistem di lingkungan nyata  
 - Membantu Wiring Elektrikal
 

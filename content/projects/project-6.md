@@ -1,6 +1,11 @@
 ---
 title: "AI LOPE U - Workplace Safety System"
-image: "/images/projects/ai-lope-u.png"
+image: "/images/projects/ailopeu.png"
+images: [
+    "/images/projects/ailopeulogin.png",
+    "/images/projects/ailopeu.png",
+    "/images/projects/ailopeu1.png"
+]
 tags: ["AI", "Computer Vision", "IoT", "YOLOv8"]
 duration: "Agu 2024 – Agu 2025"
 location: "Pertamina EP Poleng Field, Surabaya"
@@ -15,8 +20,8 @@ Sistem pemantauan keselamatan kerja berbasis AI menggunakan CCTV di Pertamina EP
 Mengembangkan sistem keselamatan cerdas yang memantau perilaku karyawan dan kondisi area kerja menggunakan computer vision serta integrasi IoT. Sistem memberikan peringatan real-time ketika terjadi pelanggaran keselamatan.
 
 ## Kontribusi Saya
-- Pengembangan aplikasi desktop berbasis flet
-- Pengembangan sistem MQTT beserta sistem elektrikal buzzer dan lampu
+- Pengembangan aplikasi desktop berbasis flet python
+- Pengembangan sistem MQTT dengan python
 
 ## Fitur Utama
 - **Deteksi Real-time**: YOLOv8 + OpenCV untuk mendeteksi penggunaan handrail, kepatuhan APD, dan zona berbahaya  

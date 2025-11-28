@@ -1,6 +1,11 @@
 ---
 title: "Sarung Tangan Penerjemah Bahasa Isyarat"
 image: "/images/projects/signgloves.png"
+images: [
+    "/images/projects/signglovessch.png",
+    "/images/projects/signgloves.png",
+    "/images/projects/signglovessch1.png",
+]
 tags: ["Machine Learning", "IoT", "SVM", "Hardware"]
 duration: "Des 2023 – Jan 2024"
 location: "Institut Teknologi Sepuluh Nopember (ITS)"
@@ -37,7 +42,7 @@ Sarung tangan menggunakan flex sensor untuk mendeteksi posisi jari dan gesture t
 - **Pemrosesan Cloud**: Opsional untuk inferensi sisi server  
 
 ## Teknologi
-- **Perangkat Keras**: ESP32, Flex Sensor, PCB Design dengan KiCAD
+- **Perangkat Keras**: ESP32, Flex Sensor, PCB Design dengan KiCAD & EasyEDA
 - **Library ML**: scikit-learn (SVM)  
 - **Framework API**: Flask  
 - **Pemrograman**: Python (ML & API), C++ (ESP32)  

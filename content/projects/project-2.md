@@ -2,12 +2,11 @@
 title: "Urinoir Untuk Deteksi Narkoba"
 date: "2025-10"
 tags: ["PLC", "HMI", "Modbus", "Next.js", "Industrial IoT"]
-image: "/images/projects/urinoir.png"
+image: "/images/projects/urinoir2.png"
 images: [
-    "/images/projects/urinoir.png",
-    "/images/projects/drisa.png",
-    "url-image-3.jpg"
-],
+    "/images/projects/urinoir2.png",
+    "/images/projects/urinoir1.png"
+]
 ---
 
 **Lokasi:** Surabaya  

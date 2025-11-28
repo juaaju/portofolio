@@ -1,6 +1,15 @@
 ---
 title: "Web Based Risk Assessment"
-image: "/images/projects/drisa.png"
+image: "/images/projects/DRISA (4).png"
+images: [
+    "/images/projects/DRISA (1).png",
+    "/images/projects/DRISA (2).png",
+    "/images/projects/DRISA (3).png",
+    "/images/projects/DRISA (4).png",
+    "/images/projects/DRISA (5).png",
+    "/images/projects/DRISA (6).png",
+    "/images/projects/DRISA (7).png"
+]
 tags: ["Web Development", "AI", "RAG", "LLM"]
 duration: "Feb – Jun 2025"
 location: "Institut Teknologi Sepuluh Nopember (ITS)"

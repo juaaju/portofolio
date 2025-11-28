@@ -3,6 +3,11 @@ title: "Sistem Estimasi Posisi Traktor Berbasis GPS dan EKF"
 date: "2024-12"
 tags: ["GPS", "Extended Kalman Filter", "Autonomous Vehicle", "Jetson", "Python"]
 image: "/images/projects/TA.png"
+images: [
+    "/images/projects/TA.png",
+    "/images/projects/TA1.png",
+    "/images/projects/TA2.png",
+]
 ---
 
 **Periode:** Desember 2024 – Juni 2025  
@@ -16,7 +21,7 @@ Sistem penentuan posisi traktor dengan biaya rendah menggunakan **GPS u-blox NEO
 - EKF meningkatkan akurasi lebih lanjut menjadi **0.610 m**.
 
 ### Teknologi
-- **Hardware:** Jetson Xavier NX, GPS u-blox NEO-6M, RTK Quectel LC29H DA, Desain PCB untuk Power Supply
+- **Hardware:** Jetson Xavier NX, GPS u-blox NEO-6M, RTK Quectel LC29H DA, Desain PCB untuk Regulator Power Supply dengan KiCAD dan EasyEDA
 - **OS:** Linux  
 - **Bahasa:** Python
 

@@ -21,7 +21,7 @@ const experiences = [
     skills: ["Arduino", "ESP32", "Python", "PLC", "C", "C++", "Javascript"]
   },
   {
-    id: 1,
+    id: 2,
     title: "Laboratorium Assistant",
     company: "ECS Laboratory (Engineering Physics, ITS)",
     location: "Surabaya",
@@ -173,7 +173,7 @@ export default function PortfolioClient({ projects, videos }: Props) {
               {projectIndex > 0 && (
                 <button 
                   onClick={prevProjects}
-                  className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 bg-white p-2 rounded-full shadow-lg hover:bg-gray-50"
+                  className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 bg-blue-500 hover:bg-blue-300 text-white p-1.5 rounded-full shadow-xl hover:shadow-2xl border-2 border-white transition"
                 >
                   <ChevronLeft className="w-6 h-6" />
                 </button>
@@ -181,7 +181,7 @@ export default function PortfolioClient({ projects, videos }: Props) {
               {projectIndex < maxProjectIndex && (
                 <button 
                   onClick={nextProjects}
-                  className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 bg-white p-2 rounded-full shadow-lg hover:bg-gray-50"
+                  className="absolute right-0 top-1/2 -translate-y-1/2 -translate-x-4 bg-blue-500 hover:bg-blue-300 text-white p-1.5 rounded-full shadow-xl hover:shadow-2xl border-2 border-white transition"
                 >
                   <ChevronRight className="w-6 h-6" />
                 </button>
@@ -356,7 +356,7 @@ export default function PortfolioClient({ projects, videos }: Props) {
               {videoIndex > 0 && (
                 <button 
                   onClick={prevVideos}
-                  className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 bg-white p-2 rounded-full shadow-lg hover:bg-gray-50"
+                  className="absolute right-0 top-1/2 -translate-y-1/2 -translate-x-4 bg-blue-500 hover:bg-blue-300 text-white p-1.5 rounded-full shadow-xl hover:shadow-2xl border-2 border-white transition"
                 >
                   <ChevronLeft className="w-6 h-6" />
                 </button>
@@ -364,7 +364,7 @@ export default function PortfolioClient({ projects, videos }: Props) {
               {videoIndex < maxVideoIndex && (
                 <button 
                   onClick={nextVideos}
-                  className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 bg-white p-2 rounded-full shadow-lg hover:bg-gray-50"
+                  className="absolute right-0 top-1/2 -translate-y-1/2 -translate-x-4 bg-blue-500 hover:bg-blue-300 text-white p-1.5 rounded-full shadow-xl hover:shadow-2xl border-2 border-white transition"
                 >
                   <ChevronRight className="w-6 h-6" />
                 </button>
