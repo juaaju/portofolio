@@ -40,7 +40,8 @@ interface Project {
   id: string;
   title: string;
   description: string;
-  image: string;
+  image: string;           // Image utama yang ditampilkan
+  images?: string[];       // Array untuk multiple images
   tags: string[];
   content?: string;
   contentHtml?: string;
@@ -79,15 +80,6 @@ export default function PortfolioClient({ projects, videos }: Props) {
   const prevProjects = () => setProjectIndex(i => Math.max(i - 1, 0));
   const nextVideos = () => setVideoIndex(i => Math.min(i + 1, maxVideoIndex));
   const prevVideos = () => setVideoIndex(i => Math.max(i - 1, 0));
-
-  // const handleSubmit = () => {
-  //   if (!form.name || !form.email || !form.message) {
-  //     alert('Please fill all fields');
-  //     return;
-  //   }
-  //   alert(`Email sent! Name: ${form.name}, Email: ${form.email}`);
-  //   setForm({ name: '', email: '', message: '' });
-  // };
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -216,12 +208,74 @@ export default function PortfolioClient({ projects, videos }: Props) {
 
             {/* Modal Content */}
             <div className="p-4 md:p-6">
-              {/* Project Image */}
-              <img 
-                src={selectedProject.image} 
-                alt={selectedProject.title}
-                className="w-full h-64 md:h-80 object-cover rounded-lg mb-6"
-              />
+              {/* Image Carousel */}
+              <div className="mb-6">
+                {/* Main Image */}
+                <div className="relative w-full h-64 md:h-80 bg-gray-100 rounded-lg overflow-hidden group">
+                  <img 
+                    src={selectedProject.image} 
+                    alt={selectedProject.title}
+                    className="w-full h-full object-cover transition-opacity duration-300"
+                  />
+
+                  {/* Navigation Buttons - Show only if multiple images */}
+                  {selectedProject.images && selectedProject.images.length > 0 && (
+                    <>
+                      <button 
+                        onClick={() => {
+                          const images = selectedProject.images!;
+                          const currentIdx = images.indexOf(selectedProject.image);
+                          const newIdx = currentIdx === 0 ? images.length - 1 : currentIdx - 1;
+                          setSelectedProject({ ...selectedProject, image: images[newIdx] });
+                        }}
+                        className="absolute left-2 top-1/2 -translate-y-1/2 bg-black bg-opacity-50 hover:bg-opacity-70 text-white p-2 rounded-full transition opacity-0 group-hover:opacity-100 z-10"
+                      >
+                        <ChevronLeft className="w-6 h-6" />
+                      </button>
+
+                      <button 
+                        onClick={() => {
+                          const images = selectedProject.images!;
+                          const currentIdx = images.indexOf(selectedProject.image);
+                          const newIdx = currentIdx === images.length - 1 ? 0 : currentIdx + 1;
+                          setSelectedProject({ ...selectedProject, image: images[newIdx] });
+                        }}
+                        className="absolute right-2 top-1/2 -translate-y-1/2 bg-black bg-opacity-50 hover:bg-opacity-70 text-white p-2 rounded-full transition opacity-0 group-hover:opacity-100 z-10"
+                      >
+                        <ChevronRight className="w-6 h-6" />
+                      </button>
+
+                      {/* Image Counter */}
+                      <div className="absolute top-2 right-2 bg-black bg-opacity-50 text-white px-3 py-1 rounded-full text-sm font-medium">
+                        {(selectedProject.images?.indexOf(selectedProject.image) ?? 0) + 1} / {selectedProject.images?.length}
+                      </div>
+                    </>
+                  )}
+                </div>
+
+                {/* Thumbnail Navigation */}
+                {selectedProject.images && selectedProject.images.length > 1 && (
+                  <div className="mt-3 flex gap-2 overflow-x-auto pb-2">
+                    {selectedProject.images.map((img, index) => (
+                      <button
+                        key={index}
+                        onClick={() => setSelectedProject({ ...selectedProject, image: img })}
+                        className={`flex-shrink-0 w-16 h-16 rounded-lg overflow-hidden border-2 transition ${
+                          selectedProject.image === img 
+                            ? 'border-blue-600 ring-2 ring-blue-400' 
+                            : 'border-gray-200 hover:border-gray-300'
+                        }`}
+                      >
+                        <img 
+                          src={img} 
+                          alt={`Thumbnail ${index + 1}`}
+                          className="w-full h-full object-cover"
+                        />
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </div>
 
               {/* Description */}
               <div className="mb-6">
@@ -398,52 +452,6 @@ export default function PortfolioClient({ projects, videos }: Props) {
           </div>
         </div>
       </section>
-
-      {/* Contact Section
-      <section className="py-12 md:py-16">
-        <div className="max-w-2xl mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8 text-center">Collab?</h2>
-          <div className="space-y-4">
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">Nama</label>
-              <input 
-                type="text"
-                value={form.name}
-                onChange={(e) => setForm({...form, name: e.target.value})}
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none text-gray-900 placeholder:text-gray-400"
-                placeholder="Nama Kamu"
-              />
-            </div>
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">Email</label>
-              <input 
-                type="email"
-                value={form.email}
-                onChange={(e) => setForm({...form, email: e.target.value})}
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none text-gray-900 placeholder:text-gray-400"
-                placeholder="your.email@example.com"
-              />
-            </div>
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">Pesan</label>
-              <textarea 
-                rows={5}
-                value={form.message}
-                onChange={(e) => setForm({...form, message: e.target.value})}
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none text-gray-900 placeholder:text-gray-400"
-                placeholder="Pesanmu..."
-              />
-            </div>
-            <button 
-              onClick={handleSubmit}
-              className="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition flex items-center justify-center gap-2 font-medium"
-            >
-              <Send className="w-5 h-5" />
-              Kirim Pesan
-            </button>
-          </div>
-        </div>
-      </section> */}
 
       {/* Footer */}
       <footer className="bg-gray-800 text-white py-8">
