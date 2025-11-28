@@ -21,4 +21,4 @@ Sistem deteksi narkotika pada urinoir berbasis **PLC Mitsubishi FX3U-14MT** dan 
 - Membantu Wiring Elektrikal
 
 ### Dokumentasi
-https://github.com/juaaju/urinoir
+dokumentasi teknis alat ini dirahasiakan

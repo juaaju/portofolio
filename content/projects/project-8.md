@@ -7,6 +7,7 @@ images: [
     "/images/projects/TA.png",
     "/images/projects/TA1.png",
     "/images/projects/TA2.png",
+    "/images/projects/TA3.png",
 ]
 ---
 
